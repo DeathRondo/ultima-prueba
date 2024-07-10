@@ -368,11 +368,32 @@ footer{
   font-size: 1.7rem;
   font-weight: 200;
   color: var(--color-principal);
+}
 
+.layout__menu{
+  position: relative;
+  
+}
+
+.menu__list{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 10%;
+}
+
+.menu__option{
+  position: relative;
+  flex-basis: 43%;
+  padding: 0.7rem;
+  border: 1px solid var(--color-background);
+  border-radius: 1rem;
+  margin: 10px auto;
 }
 
 .user-links{
-  margin-bottom: 3.6rem;
+  position: absolute;
+  bottom: 4rem;
 }
 
 .link-social{
@@ -602,8 +623,7 @@ footer{
 }
 
 .skills__progressbar{
-  
-  height: 1rem;
+height: 1rem;
 border: 1px solid var(--color-secondary);
 border-radius: 1rem;
 background-color: var(--color-background);
@@ -622,6 +642,8 @@ margin-bottom: 1.5rem;
 .skills__percentage--p2{width: 40%;}
 .skills__percentage--p3{width: 45%;}
 .skills__percentage--p4{width: 25%;}
+.skills__percentage--p5{width: 40%;}
+.skills__percentage--p6{width: 35%;}
 
 .knowledges__list{
   display: flex;
@@ -642,7 +664,7 @@ margin-bottom: 1.5rem;
 .certificates__container{
   display: flex;
   flex-direction: row;
-  gap: 3rem;
+  gap: 2.8rem;
 }
 
 .certificates__certificate{

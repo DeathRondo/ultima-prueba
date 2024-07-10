@@ -22,16 +22,16 @@ export const HeaderNav = () => {
       </div>
         <nav className='layout__menu'>
             <ul className='menu__list'>
-                <li>
+                <li className='menu__option'>
                   <NavLink to="inicio">Inicio</NavLink>    
                 </li>
-                <li>
+                <li className='menu__option'>
                   <NavLink to="portafolio">Portafolio</NavLink>    
                 </li>
-                <li>
+                <li className='menu__option'>
                   <NavLink to="curriculum">Curriculum</NavLink>    
                 </li>
-                <li>
+                <li className='menu__option'>
                   <NavLink to="contacto">Contacto</NavLink>    
                 </li>
             </ul>

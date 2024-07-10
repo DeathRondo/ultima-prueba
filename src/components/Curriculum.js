@@ -122,6 +122,22 @@ export const Curriculum = () => {
                 <div className='skills_percentage skills__percentage--p3'></div>
               </div>
 
+              <article className='skills__title'>
+                <h4 className='skills__text'>SQL</h4>
+                <span className='skills_number'>35%</span>
+              </article>
+              <div className='skills__progressbar'>
+                <div className='skills_percentage skills__percentage--p6'></div>
+              </div>
+              <article className='skills__title'>
+                <h4 className='skills__text'>Git</h4>
+                <span className='skills_number'>40%</span>
+              </article>
+              <div className='skills__progressbar'>
+                <div className='skills_percentage skills__percentage--p5'></div>
+              </div>
+
+              
             <article className='skills__title'>
               <h4 className='skills__text'>React</h4>
               <span className='skills_number'>25%</span>
@@ -134,6 +150,7 @@ export const Curriculum = () => {
           <div className='resume__knowledge'>
             <ul className='knowledges__list'>
               <li className='knowledge__option'>Programacion</li>
+              <li className='knowledge__option'>Frontend</li>
               <li className='knowledge__option'>Desarrollo Web</li>
               <li className='knowledge__option'>Diseño Web</li>
               <li className='knowledge__option'>Maquetacion</li>
@@ -155,6 +172,28 @@ export const Curriculum = () => {
             </div>
             <div className='certificates__content'>
               <h4 className='certificates__title'>Javascript Moderno - Guia para dominar el lenguaje</h4>
+              <span className='certificates__id'></span>
+              <span className='certificates_date'>14-11-2023</span>
+            </div>
+          </article>
+
+          <article className='certificates__certificate'>
+            <div className='certificates__logo'>
+              <img src='holamundologo.png'/>
+            </div>
+            <div className='certificates__content'>
+              <h4 className='certificates__title'>Ultimate Javascript</h4>
+              <span className='certificates__id'></span>
+              <span className='certificates_date'>14-11-2023</span>
+            </div>
+          </article>
+
+          <article className='certificates__certificate'>
+            <div className='certificates__logo'>
+              <img src='holamundologo.png'/>
+            </div>
+            <div className='certificates__content'>
+              <h4 className='certificates__title'>Ultimate GIT - GitHub</h4>
               <span className='certificates__id'></span>
               <span className='certificates_date'>14-11-2023</span>
             </div>

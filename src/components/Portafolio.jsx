@@ -44,7 +44,7 @@ export const Portafolio = () => {
           <span className='gallery__category'>Videos</span>
         </figure>
 
-        <figure className='gallery__item'>
+        {/* <figure className='gallery__item'>
           <div className='gallery__container-image'>
             <a href='#' className='gallery__link'>
               <img src='/galeria-2.jpg' className='gallery__image'/>
@@ -102,7 +102,7 @@ export const Portafolio = () => {
           <figcaption className='gallery__title'>Imagenes</figcaption>
           <i className='gallery__icon'><FontAwesomeIcon icon={faImagePortrait}/></i>
           <span className='gallery__category'>Videos</span>
-        </figure>
+        </figure> */}
       </section>
 
       </section>
