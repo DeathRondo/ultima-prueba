@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faVideo } from '@fortawesome/free-solid-svg-icons/faVideo'
+import { faCode } from '@fortawesome/free-solid-svg-icons/faCode'
 import { NavLink } from 'react-router-dom'
 
 
@@ -29,16 +29,39 @@ export const Portafolio = () => {
       </nav>
       </header>
       <section className='portafolio__gallery'>
+      <figure className='gallery__item'>
+          <div className='gallery__container-image'>
+            <a href='https://01-todo-list.netlify.app' className='gallery__link'>
+              <img src='/todolist.jpg' alt='imagen-galeria' className='gallery__image'/>
+            </a>
+          </div>
+
+          <figcaption className='gallery__title'>ToDo list</figcaption>
+          <i className='gallery__icon'><FontAwesomeIcon icon={faCode} /> </i>
+          <span className='gallery__category'>Javascript</span>
+        </figure>
         <figure className='gallery__item'>
           <div className='gallery__container-image'>
             <a href='https://edg-site-prueba.netlify.app/' className='gallery__link'>
-              <img src='/galeria-1.jpg' alt='imagen-galeria' className='gallery__image'/>
+              <img alt='blackjack.jpg' src='/blackjack.jpg' className='gallery__image'/>
+            </a>
+          </div>
+
+          <figcaption className='gallery__title'>Blackjack</figcaption>
+          <i className='gallery__icon'><FontAwesomeIcon icon={faCode} /> </i>
+          <span className='gallery__category'>Javascript</span>
+        </figure>
+
+        <figure className='gallery__item'>
+          <div className='gallery__container-image'>
+            <a href='https://tetrisapp-js.netlify.app/' className='gallery__link'>
+              <img alt='blackjack.jpg' src='/tetris.jpg' className='gallery__image'/>
             </a>
           </div>
 
           <figcaption className='gallery__title'>Prueba1</figcaption>
-          <i className='gallery__icon'><FontAwesomeIcon icon={faVideo} /> </i>
-          <span className='gallery__category'>Videos</span>
+          <i className='gallery__icon'><FontAwesomeIcon icon={faCode} /> </i>
+          <span className='gallery__category'>Javascript</span>
         </figure>
 
         {/* <figure className='gallery__item'>

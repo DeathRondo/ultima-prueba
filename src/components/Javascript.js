@@ -16,7 +16,7 @@ export const Javascript = () => {
           <h1 className='resume__title'>Portafolio</h1>
           <nav className='portafolio__navbar'>
         <ul className='portafolio__menu'>
-              <li className='portafolio__option portafolio__option--active'>
+              <li className='portafolio__option'>
                 <NavLink to='/portafolio'>Todo</NavLink>
               </li>
               <li className='portafolio__option portafolio__option--active'>
@@ -45,11 +45,32 @@ export const Javascript = () => {
           <i className='gallery__icon'><FontAwesomeIcon icon={faVideo} /> </i>
           <span className='gallery__category'>Videos</span>
         </figure> */}
+        <figure className='gallery__item'>
+          <div className='gallery__container-image'>
+            <a href='https://01-todo-list.netlify.app' className='gallery__link'>
+              <img src='/todolist.jpg' alt='imagen-galeria' className='gallery__image'/>
+            </a>
+          </div>
 
+          <figcaption className='gallery__title'>ToDo list</figcaption>
+          <i className='gallery__icon'><FontAwesomeIcon icon={faCode} /> </i>
+          <span className='gallery__category'>Javascript</span>
+        </figure>
         <figure className='gallery__item'>
           <div className='gallery__container-image'>
             <a href='https://edg-site-prueba.netlify.app/' className='gallery__link'>
-              <img alt='imagen-galeria' src='/galeria-2.jpg' className='gallery__image'/>
+              <img alt='blackjack.jpg' src='/blackjack.jpg' className='gallery__image'/>
+            </a>
+          </div>
+
+          <figcaption className='gallery__title'>Blackjack</figcaption>
+          <i className='gallery__icon'><FontAwesomeIcon icon={faCode} /> </i>
+          <span className='gallery__category'>Javascript</span>
+        </figure>
+        <figure className='gallery__item'>
+          <div className='gallery__container-image'>
+            <a href='https://tetrisapp-js.netlify.app/' className='gallery__link'>
+              <img alt='blackjack.jpg' src='/tetris.jpg' className='gallery__image'/>
             </a>
           </div>
 

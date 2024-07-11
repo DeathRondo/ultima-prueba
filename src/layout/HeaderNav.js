@@ -39,10 +39,10 @@ export const HeaderNav = () => {
         <div className='user-links'>
           <ul className='link-social'>
             <li className='social-option'>
-              <a href='portafolio.js'><FontAwesomeIcon icon={faLinkedin} /> </a>
+              <a href='https://www.linkedin.com/in/edgardo-cruz-007294220'><FontAwesomeIcon icon={faLinkedin} /> </a>
             </li>
             <li className='social-option'>
-              <a href='portafolio.js'><FontAwesomeIcon icon={faGithub} /> </a>
+              <a href='https://github.com/DeathRondo'><FontAwesomeIcon icon={faGithub} /> </a>
             </li>
             <li className='social-option'>
               <a href='portafolio.js'><FontAwesomeIcon icon={faInstagram} /> </a>

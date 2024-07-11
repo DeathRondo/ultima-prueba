@@ -25,7 +25,7 @@ export const Reactt = () => {
     <nav className='portafolio__navbar'>
       
       <ul className=' portafolio__menu'>
-        <li className='portafolio__option portafolio__option--active'>
+        <li className='portafolio__option'>
             <NavLink to='/portafolio'>Todo</NavLink>
           </li>
         <li className='portafolio__option'>

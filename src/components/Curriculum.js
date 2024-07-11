@@ -184,7 +184,7 @@ export const Curriculum = () => {
             <div className='certificates__content'>
               <h4 className='certificates__title'>Ultimate Javascript</h4>
               <span className='certificates__id'></span>
-              <span className='certificates_date'>14-11-2023</span>
+              <span className='certificates_date'>27/06/2024</span>
             </div>
           </article>
 
@@ -195,7 +195,7 @@ export const Curriculum = () => {
             <div className='certificates__content'>
               <h4 className='certificates__title'>Ultimate GIT - GitHub</h4>
               <span className='certificates__id'></span>
-              <span className='certificates_date'>14-11-2023</span>
+              <span className='certificates_date'>09/07/2024</span>
             </div>
           </article>
 
