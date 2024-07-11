@@ -48,7 +48,7 @@ export const Javascript = () => {
 
         <figure className='gallery__item'>
           <div className='gallery__container-image'>
-            <a href='#' className='gallery__link'>
+            <a href='https://edg-site-prueba.netlify.app/' className='gallery__link'>
               <img alt='imagen-galeria' src='/galeria-2.jpg' className='gallery__image'/>
             </a>
           </div>

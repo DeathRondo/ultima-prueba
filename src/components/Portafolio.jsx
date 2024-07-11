@@ -1,9 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faVideo } from '@fortawesome/free-solid-svg-icons/faVideo'
-import {  faCodeBranch, faImagePortrait, faKeyboard } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faCode } from '@fortawesome/free-solid-svg-icons/faCode'
 import { NavLink } from 'react-router-dom'
 
 
@@ -20,7 +17,7 @@ export const Portafolio = () => {
       <nav className='portafolio__navbar'>
         <ul className='portafolio__menu'>
           <li className='portafolio__option portafolio__option--active'>
-            <a href='#' className='portafolio__link'>Todo</a>.
+            <a href='https://edg-site-prueba.netlify.app/' className='portafolio__link'>Todo</a>.
           </li>
           <li className='portafolio__option'>
           <NavLink to="javascript">Javascript</NavLink> 
@@ -34,8 +31,8 @@ export const Portafolio = () => {
       <section className='portafolio__gallery'>
         <figure className='gallery__item'>
           <div className='gallery__container-image'>
-            <a href='#' className='gallery__link'>
-              <img src='/galeria-1.jpg' className='gallery__image'/>
+            <a href='https://edg-site-prueba.netlify.app/' className='gallery__link'>
+              <img src='/galeria-1.jpg' alt='imagen-galeria' className='gallery__image'/>
             </a>
           </div>
 
