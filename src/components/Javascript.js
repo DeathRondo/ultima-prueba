@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faVideo } from '@fortawesome/free-solid-svg-icons/faVideo'
+//import { faVideo } from '@fortawesome/free-solid-svg-icons/faVideo'
 import { faCode } from '@fortawesome/free-solid-svg-icons/faCode'
 // import {  faCodeBranch, faImagePortrait, faKeyboard } from '@fortawesome/free-solid-svg-icons'
 // import { faTwitter } from '@fortawesome/free-brands-svg-icons'
@@ -49,7 +49,7 @@ export const Javascript = () => {
         <figure className='gallery__item'>
           <div className='gallery__container-image'>
             <a href='#' className='gallery__link'>
-              <img src='/galeria-2.jpg' className='gallery__image'/>
+              <img alt='imagen-galeria' src='/galeria-2.jpg' className='gallery__image'/>
             </a>
           </div>
 

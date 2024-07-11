@@ -47,7 +47,7 @@ export const Reactt = () => {
         <figure className='gallery__item'>
           <div className='gallery__container-image'>
             <a href='#' className='gallery__link'>
-              <img src='/galeria-1.jpg' className='gallery__image'/>
+              <img alt='imagen-galeria' src='/galeria-1.jpg' className='gallery__image'/>
             </a>
           </div>
 

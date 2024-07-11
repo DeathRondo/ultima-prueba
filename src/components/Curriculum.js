@@ -168,7 +168,7 @@ export const Curriculum = () => {
         <section className='certificates__container'>
           <article className='certificates__certificate'>
             <div className='certificates__logo'>
-              <img src='certificado-1.png'/>
+              <img alt='logo udemy' src='certificado-1.png'/>
             </div>
             <div className='certificates__content'>
               <h4 className='certificates__title'>Javascript Moderno - Guia para dominar el lenguaje</h4>
@@ -179,7 +179,7 @@ export const Curriculum = () => {
 
           <article className='certificates__certificate'>
             <div className='certificates__logo'>
-              <img src='holamundologo.png'/>
+              <img alt='logo academia' src='holamundologo.png'/>
             </div>
             <div className='certificates__content'>
               <h4 className='certificates__title'>Ultimate Javascript</h4>
@@ -190,7 +190,7 @@ export const Curriculum = () => {
 
           <article className='certificates__certificate'>
             <div className='certificates__logo'>
-              <img src='holamundologo.png'/>
+              <img alt='logo academia' src='holamundologo.png'/>
             </div>
             <div className='certificates__content'>
               <h4 className='certificates__title'>Ultimate GIT - GitHub</h4>
