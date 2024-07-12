@@ -380,6 +380,7 @@ footer{
   flex-direction: row;
   flex-wrap: wrap;
   margin-top: 10%;
+  margin-bottom: 100px;
 }
 
 .menu__option{

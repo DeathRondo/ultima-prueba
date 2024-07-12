@@ -12,7 +12,7 @@ export const Contacto =()=>{
             <h1 className='contact__title'>Contacto</h1>
           </header>
 
-          <form className="contact__form">
+          <form className="contact__form" action="https://formsubmit.co/4a1d2e27bdc1f6b9b5bbf46dff1a61e1" method="POST">
             <div className="form__container">
               <div className="form__group">
                 <input type="text" className="form__input" name='name' required placeholder='Nombre'/>
@@ -34,6 +34,10 @@ export const Contacto =()=>{
             <button type='submit' className='form__button'>Enviar</button>
 
           </form>
+
+          <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js'></script>
+          <script type='text/javascript'></script>
+
     
           
     </section>
